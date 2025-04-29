@@ -19,7 +19,6 @@
         </tr>
         </thead>
         <tbody>
-<!--        for each employee in employees-->
         <tr th:each="employee : ${employees}">
 <!--            employees attribute is assciated vth lst-->
             <td th:text="${employee.id}" style="border: 2px solid black; padding: 5px;"/>
@@ -35,6 +34,5 @@
     </table>
     <br> <br>
     <a href="/employee/add">ADD Employee</a>
-
 </body>
 </html>
